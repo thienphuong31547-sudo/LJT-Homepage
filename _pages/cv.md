@@ -4,61 +4,56 @@ title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume
+  - /cv.html
 ---
 
-{% include base_path %}
+<h2>Education</h2>
+<ul>
+  <li><strong>Ph.D. in Computer Science</strong> (2024&ndash;Present), Hong Kong University of Science and Technology</li>
+  <li><strong>B.Eng.</strong> (2020&ndash;2024), Shanghai Jiao Tong University</li>
+</ul>
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<h2>Research Experience</h2>
+<ul>
+  <li><strong>Research Intern</strong>, MINIMAX (February 2025 &ndash; Present)</li>
+  <li><strong>Research Intern</strong>, Tencent WXG (June 2024 &ndash; September 2024), advised by Zifei Shan</li>
+  <li><strong>Research Intern</strong>, Shanghai AI Lab (June 2023 &ndash; December 2023), advised by Prof. Yu Cheng</li>
+</ul>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<h2>Publications</h2>
+<ul>
+  <li><strong>SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond</strong> (2025, Arxiv) <br/>
+    <em>Junteng Liu</em>, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He</li>
+  <li><strong>On the Perception Bottleneck of VLMs for Chart Understanding</strong> (2025, Arxiv) <br/>
+    <em>Junteng Liu</em>, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He</li>
+  <li><strong>On the Universal Truthfulness Hyperplane Inside LLMs</strong> (EMNLP 2024) <br/>
+    <em>Junteng Liu</em>, Shiqi Chen, Yu Cheng, Junxian He</li>
+  <li><strong>In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation</strong> (ICML 2024) <br/>
+    Shiqi Chen, Miao Xiong, <em>Junteng Liu</em>, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He</li>
+  <li><strong>C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models</strong> (NeurIPS 2023) <br/>
+    Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, <em>Junteng Liu</em>, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He</li>
+  <li><strong>Composing Parameter-Efficient Modules with Arithmetic Operations</strong> (NeurIPS 2023) <br/>
+    Jinghan Zhang, Shiqi Chen, <em>Junteng Liu</em>, Junxian He</li>
+</ul>
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+<h2>Skills</h2>
+<ul>
+  <li>Natural Language Processing</li>
+  <li>Machine Learning</li>
+  <li>LLM Reasoning and Reinforcement Learning</li>
+  <li>Vision-Language Models</li>
+  <li>LLM Truthfulness and Interpretability</li>
+</ul>
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<h2>Awards &amp; Honors</h2>
+<ul>
+  <li>Zhiyuan Honor Scholarship, Shanghai Jiao Tong University</li>
+</ul>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<h2>Contact</h2>
+<ul>
+  <li>Email: <a href="mailto:jliugi@connect.ust.hk">jliugi@connect.ust.hk</a></li>
+  <li>GitHub: <a href="https://github.com/Vicent0205">Vicent0205</a></li>
+  <li>Google Scholar: <a href="https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate">Profile</a></li>
+  <li>X (Twitter): <a href="https://twitter.com/junteng88716710">@junteng88716710</a></li>
+</ul>
